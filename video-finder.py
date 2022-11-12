@@ -74,10 +74,10 @@ class Browser:
 
 # identify elements with tagname <a>
 # traverse list
-pw = Browser("https://www.eporner.com/login/", "")
+pw = Browser("https://www.vimeo.com/login/", "")
 pw.navigate()
 pw.login()
-vr = Browser("https://www.eporner.com/cat/vr-porn/", "video-")
+vr = Browser("https://www.vimeo.com/cat/vr/", "video-")
 vr.navigate()
 array = vr.getlinks()
 vr.looper(array)
